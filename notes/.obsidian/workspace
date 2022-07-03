@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9d03c09bfb801832",
+        "id": "2845c00ef613d834",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "index-laravel.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "4def4e868c74a525",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "own documentation/9. Despliegue.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 186
   },
   "right": {
     "id": "31a45efe71488db2",
@@ -145,17 +157,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9d03c09bfb801832",
+  "active": "2845c00ef613d834",
   "lastOpenFiles": [
     "index-laravel.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "template/99. Example notes.md",
-    "template/3. note.md",
-    "template/4. tip.md",
-    "template/5. codigo-php.md",
-    "template/6. codigo-html.md",
-    "template/1. tittle.md",
-    "template/2. back-index-info.md"
+    "Tasks.md",
+    "own documentation/9. Despliegue.md",
+    "own documentation/1.1 Bootstrappers.md",
+    "own documentation/8. Variables de sesión.md",
+    "own documentation/7. Rutas.md",
+    "own documentation/6. Controlador.md",
+    "own documentation/5. Vistas.md",
+    "own documentation/4. Factory y Seeders.md",
+    "own documentation/2.1 Relaciones.md"
   ]
 }
