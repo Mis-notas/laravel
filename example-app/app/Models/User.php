@@ -34,6 +34,7 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
+    // Para que no retorne estos resultados en un array
 
     /**
      * The attributes that should be cast.

@@ -8,8 +8,8 @@
             <h1> Crear cliente </h1>
         @endif
 
-        @if (isset($client))
-            <form action="{{ route('client.update', $client ) }}" method="POST">
+            @if (isset($client))
+                <form action="{{ route('client.update', $client ) }}" method="POST">
                 @method('PUT') {{-- HTML solo permite los metodos de post & get. laravel a traves de este modificador permite cambiar esto y enviar un metodo put--}}
          @else
             <form action="{{ route('client.store') }}" method="POST">
@@ -26,7 +26,7 @@
             </div>
             <div class="mb-3">
                 <label for="due" class="form-label">Saldo</label>
-                <input type="number" name="due" class="form-control" placeholder="Saldo del cliente" step="0.01" value="{{old('due') ?? $client->due}}">
+                <input type="number" name="due" class="form-control" placeholder="Saldo del cliente" step="0.01" value="{{old('due') ?? @$client -> due}}">
                 <p class="form-text">Escriba el saldo del cliente</p>
                 @error('due')
                     <p class="form-text text-danger">{{ $message }}</p>

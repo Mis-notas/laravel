@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "own documentation/7. Rutas.md",
+            "file": "own documentation/9. Despliegue.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "own documentation/7. Rutas.md",
+                "file": "own documentation/9. Despliegue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "own documentation/7. Rutas.md",
+                "file": "own documentation/9. Despliegue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "own documentation/7. Rutas.md"
+                "file": "own documentation/9. Despliegue.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "036ac6b0b4e94fe1",
   "lastOpenFiles": [
+    "own documentation/9. Despliegue.md",
+    "own documentation/8. Variables de sesión.md",
     "own documentation/7. Rutas.md",
     "own documentation/6. Controlador.md",
     "own documentation/5. Vistas.md",
-    "annexed/Heroku-variables-de-entorno.png",
-    "own documentation/10. Generar certificado SSL.md",
-    "own documentation/9.2 Linux.md",
-    "own documentation/9. Despliegue.md",
-    "own documentation/9.1 Heroku.md",
-    "heroku-variables.md",
-    "Tasks.md"
+    "own documentation/3. Migraciones.md",
+    "own documentation/2.1 Relaciones.md",
+    "own documentation/2. Model.md",
+    "own documentation/1.1 Bootstrappers.md",
+    "own documentation/1. Instalación - Linux.md"
   ]
 }
