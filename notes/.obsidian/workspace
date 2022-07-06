@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2845c00ef613d834",
+        "id": "036ac6b0b4e94fe1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index-laravel.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "4def4e868c74a525",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "own documentation/9. Despliegue.md",
+            "file": "own documentation/7. Rutas.md",
             "mode": "source",
             "source": false
           }
@@ -73,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 186
+    "width": 280
   },
   "right": {
     "id": "31a45efe71488db2",
@@ -89,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index-laravel.md",
+                "file": "own documentation/7. Rutas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index-laravel.md",
+                "file": "own documentation/7. Rutas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index-laravel.md"
+                "file": "own documentation/7. Rutas.md"
               }
             }
           },
@@ -157,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2845c00ef613d834",
+  "active": "036ac6b0b4e94fe1",
   "lastOpenFiles": [
-    "index-laravel.md",
-    "Tasks.md",
-    "own documentation/9. Despliegue.md",
-    "own documentation/1.1 Bootstrappers.md",
-    "own documentation/8. Variables de sesión.md",
     "own documentation/7. Rutas.md",
     "own documentation/6. Controlador.md",
     "own documentation/5. Vistas.md",
-    "own documentation/4. Factory y Seeders.md",
-    "own documentation/2.1 Relaciones.md"
+    "annexed/Heroku-variables-de-entorno.png",
+    "own documentation/10. Generar certificado SSL.md",
+    "own documentation/9.2 Linux.md",
+    "own documentation/9. Despliegue.md",
+    "own documentation/9.1 Heroku.md",
+    "heroku-variables.md",
+    "Tasks.md"
   ]
 }
