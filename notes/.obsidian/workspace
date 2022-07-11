@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "036ac6b0b4e94fe1",
+        "id": "325968bfdd190e4b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index-laravel.md",
+            "file": "own documentation/6. Controlador.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index-laravel.md",
+                "file": "own documentation/6. Controlador.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index-laravel.md",
+                "file": "own documentation/6. Controlador.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index-laravel.md"
+                "file": "own documentation/6. Controlador.md"
               }
             }
           },
@@ -145,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "036ac6b0b4e94fe1",
+  "active": "325968bfdd190e4b",
   "lastOpenFiles": [
+    "own documentation/6. Controlador.md",
     "index-laravel.md",
+    "own documentation/2. Model.md",
     "own documentation/9.2 Linux.md",
     "own documentation/9.1 Heroku.md",
     "own documentation/9. Despliegue.md",
     "own documentation/8. Variables de sesión.md",
     "own documentation/1. Instalación - Linux.md",
     "own documentation/7. Rutas.md",
-    "own documentation/6. Controlador.md",
-    "own documentation/5. Vistas.md",
-    "own documentation/3. Migraciones.md"
+    "own documentation/5. Vistas.md"
   ]
 }
