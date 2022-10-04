@@ -145,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6479e4b454d04795",
+  "active": "b3b47580447f09dc",
   "lastOpenFiles": [
-    "own documentation/7. Rutas.md",
-    "own documentation/8. Variables de sesión.md",
-    "own documentation/99. Querys para no olvidar.md",
-    "own documentation/9. Despliegue.md",
+    "Tasks.md",
+    "annexed/005 - Validación Check-out inferiora Check-in.pdf",
+    "index-laravel.md",
+    "own documentation/2. Model.md",
+    "own documentation/2.1 Relaciones.md",
+    "own documentation/1.1 Bootstrappers.md",
+    "own documentation/1. Instalación - Linux.md",
     "own documentation/6. Controlador.md",
     "own documentation/5. Vistas.md",
-    "index-laravel.md",
-    "Tasks.md",
-    "annexed/Query Venues compleja.png",
-    "annexed/notes.jpeg"
+    "own documentation/3. Migraciones.md"
   ]
 }

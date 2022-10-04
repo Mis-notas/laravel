@@ -43,19 +43,19 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "laravel": {
-      "laravel": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659497464967
-        }
-      }
-    },
     "phpunit": {
       "phpunit": {
         "currentFile": {
           "count": 1,
           "lastUpdated": 1661779371106
+        }
+      }
+    },
+    "comparación": {
+      "comparación": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1663620120052
         }
       }
     }
