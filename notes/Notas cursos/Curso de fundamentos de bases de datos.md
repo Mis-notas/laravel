@@ -1,0 +1,303 @@
+i9https://platzi.com/blog/bases-de-datos-que-son-que-tipos-existen/
+## Tipos de bases de datos
+
+**Relacionales:** En la industria hay varias compañías dedicadas a ser manejadoras de bases de datos relacionales como **SQL Server, Oracle, MariaDB**, entre otras.  
+**No relacionales:** Todavía están avanzando y existen ejemplos muy distintos como **cassandra, elasticsearch, neo4j, MongoDB**, entre otras.
+
+**Servicios:**
+
+-   Auto administrados: Es la base de datos que instalas tú y te encargas de actualizaciones, mantenimiento, etc.
+-   Administrados: Servicios que ofrecen las nubes modernas como Azure y no debes preocuparte por mantenimiento o actualizaciones.
+https://aukera.es/blog/bases-de-datos-relacionales-vs-no-relacionales/
+
+**Bases de datos relacionales (RBD)**
+
+---
+
+Es importante que sea fácil de guardar y extraer, anteriormente se usaban bases de datos basadas en archivos, el cuál era texto plano fácil de guardar, pero difícil de extraer, por esto se inventaron las bases de datos relacionales. En 1990 Codd se preocupó porque los sistemas de gestión de bases de datos (SGBD) que decían ser relacionales, no lo eran. En la práctica es difícil cumplir las 12 pero, un SGBD es más relacional cuantas más reglas cumpla
+
+---
+
+**Las Reglas y mandamientos de Edgar Frank Ted Codd**
+
+-   **Regla 0: Regla de fundación.**  
+    a) Cualquier sistema que se proclame como relacional, debe ser capaz de gestionar sus bases de datos enteramente mediante sus capacidades relacionales.
+    
+-   **Regla 1: Regla de la información.**  
+    a) Todos los datos deben estar almacenados en las tablas  
+    b) Esas tablas deben cumplir las premisas del modelo relacional  
+    c) No puede haber información a la que accedemos por otra vía
+    
+-   **Regla 2: Regla del acceso garantizado.**  
+    a) Cualquier dato es accesible sabiendo la clave de su fila y el nombre de su columna o atributo  
+    b) Si a un dato no podemos acceder de esta forma, no estamos usando un modelo relacional
+    
+-   **Regla 3: Regla del tratamiento sistemático de valores nulos.**  
+    a) Esos valores pueden dar significado a la columna que los contiene  
+    b) El SGBD debe tener la capacidad de manejar valores nulos  
+    c) El SGBD reconocerá este valor diferenciándolo de cualquier otro  
+    d) El SGBD deberá aplicársele la lógica apropiada  
+    e) Es un valor independiente del tipo de datos de la columna
+    
+-   **Regla 4: Catálogo dinámico en línea basado en el modelo relacional.**  
+    a) El catálogo en línea es el diccionario de datos  
+    b) El diccionario de datos se debe de poder consultar usando las mismas técnicas que para los datos  
+    c) Los metadatos, por tanto, se organizan también en tablas relacionales  
+    d) Si SELECT es una instrucción que consulta datos, también será la que consulta los metadatos
+    
+-   **Regla 5: Regla comprensiva del sublenguaje de los datos completo.**  
+    a) Al menos tiene que existir un lenguaje capaz de hacer todas las funciones del SGBD  
+    b) No puede haber funciones fuera de ese lenguaje  
+    c) Puede haber otros lenguajes en el SGBD para hacer ciertas tareas  
+    d) Pero esas tareas también se deben poder hacer con el “lenguaje completo”
+    
+-   **Regla 6: Regla de actualización de vistas.**  
+    a) Las vistas tienen que mostrar información actualizada  
+    b) No puede haber diferencias entre los datos de las vistas y los datos de las tablas base
+    
+-   **Regla 7: Alto nivel de inserción, actualización, y cancelación.**  
+    a) La idea es que el lenguaje que maneja la base de datos sea muy humano  
+    b) Eso implica que las operaciones del lenguaje de manipulación de los datos (DML) trabajen con conjuntos de filas a la vez  
+    c) Para modificar, eliminar o añadir datos, no hará falta programar de la forma en la que lo hacen los lenguajes de tercera generación como C o Java
+    
+-   **Regla 8: Independencia física de los datos.**  
+    a) Cambios en la física de la BD no afecta a las aplicaciones ni a los esquemas lógicos  
+    b) El acceso a las tablas (elemento lógico) no cambia porque la física de la base de datos cambie
+    
+-   **Regla 9: Independencias lógicas de los datos.**  
+    a) Cambios en el esquema lógico (tablas) de la BD no afectan al resto de esquemas  
+    b) Si cambiamos nombres de tabla, o de columna o modificamos información de las filas, las aplicaciones (esquema externo) no se ven afectadas  
+    c) Es más difícil de conseguir
+    
+-   **Regla 10: Independencia de la integridad.**  
+    a) Las reglas de integridad (restricciones) deben de ser gestionadas y almacenadas por el SGBD
+    
+-   **Regla 11: Independencia de la distribución.**  
+    a) Que la base de datos se almacene o gestione de forma distribuida en varios servidores, no afecta al uso de esta ni a la programación de las aplicaciones de usuario  
+    b) El esquema lógico es el mismo independientemente de si la BD es distribuida o no
+    
+-   **Regla 12: La regla de la no subversión.**  
+    a) La base de datos no permitirá que exista un lenguaje o forma de acceso, que permita saltarse las reglas anteriores
+
+Entidades y atributos
+
+Entidades: Son similares a objetos (POO), representa algo en el mundo real. Generalmente se ponen en plural.
+
+![[Pasted image 20230212171156.png]]
+
+Atributos: Características que hacen ser entidad a dicha entidad.
+
+![[Pasted image 20230212171405.png]]
+
+• Multivaluados: puede tener varios valores (teléfonos, hijos, discos duros)  
+• Compuestos: desde los cuales se desprenden más atributos  
+• Llave: aquel que identifica la entidad y no se puede repetir y existen dos tipos:  
+-Natural: Son inherentes del Objeto (Cedula, No. Serie)  
+-Artificial: No es inherente al objeto y se asigna arbitrariamente  
+• Derivados: es aquel que se obtiene de un atributo definido (fecha Nac = edad)}
+
+Diagrama entidad relación
+![[Pasted image 20230212184015.png]]
+
+
+## Relaciones
+Como su nombre indica es para representar la relación entre dos entidades.
+
+![[Pasted image 20230212175125.png]]
+
+![[Pasted image 20230212180110.png]]
+--- 
+
+![[Pasted image 20230212175416.png]]
+Es opcional que no haya una sesión activa para un usuario.
+
+El Char sirve para declarar un campo rigido de disco que vamos a ocupar y el varchar puede cambiar la longitud dependiento del largo de los datos que metamos en el. Seguramente esten pensando que lo mejor es un varchar para todo ya que es dinamico. Pero que el motor de base de datos haga los procesos de calcular la nueva longitud de cada dato del tipo varchar que ingresemos nos puede dar problemas de rendimiento. Si estamos seguros que un dato solo ocupara un char de 5 ocupemos un char de 5. Estas son algunas de las buenas practicas que se debe tener para el funcionamiento de un motor de base de datos.
+
+![[Pasted image 20230212184152.png]]
+
+En MySQL, `timestamp` y `datetime` son dos tipos de datos que se utilizan para almacenar fechas y horas. Sin embargo, hay algunas diferencias clave entre ellos que debes conocer:
+
+1.  Rango de fechas: `datetime` puede almacenar fechas y horas desde el año 1000 hasta 9999, mientras que `timestamp` solo puede almacenar fechas y horas desde 1970 hasta 2038.
+    
+2.  Tamaño de almacenamiento: `datetime` ocupa 8 bytes en la base de datos, mientras que `timestamp` solo ocupa 4 bytes.
+    
+3.  Automatización: `timestamp` tiene una característica de automatización que permite actualizar automáticamente el valor en la base de datos cuando se realiza un cambio en la fila. `datetime`, por otro lado, no tiene esta característica.
+    
+4.  Formato de fecha: `datetime` permite almacenar fechas en un formato más detallado que `timestamp`, que solo almacena fechas y horas.
+    
+
+En resumen, si necesitas almacenar fechas y horas con un rango de fechas más amplio y un formato más detallado, es mejor utilizar `datetime`. Si necesitas un almacenamiento más eficiente y una automatización más simple, es mejor utilizar `timestamp`.
+
+**Constraints (Restricciones)**
+
+-   **NOT NULL:** Se asegura que la columna no tenga valores nulos
+-   **UNIQUE:** Se asegura que cada valor en la columna no se repita
+-   **PRIMARY KEY:** Es una combinación de NOT NULL y UNIQUE
+-   **FOREIGN KEY:** Identifica de manera única una tupla en otra tabla
+-   **CHECK:** Se asegura que el valor en la columna cumpla una condición dada
+-   **DEFAULT:** Coloca un valor por defecto cuando no hay un valor especificado
+-   **INDEX:** Se crea por columna para permitir búsquedas más rápidas
+
+---
+## Normalización
+
+
+La normalización como su nombre lo indica nos ayuda a dejar todo de una forma normal. Esto obedece a las 12 reglas de **Codd** y nos permiten separar componentes en la base de datos:
+
+-   **Primera forma normal (1FN):** Atributos atómicos (Sin campos repetidos):
+-   **Segunda forma normal (2FN):** Cumple 1FN y cada campo de la tabla debe depender de una clave única.
+-   **Tercera forma normal (3FN):** Cumple 1FN y 2FN y los campos que NO son clave, NO deben tener dependencias.
+-   **Cuarta forma normal (4FN):** Cumple 1FN, 2FN, 3FN y los campos multivaluados se identifican por una clave única 
+
+
+![[Pasted image 20230212185401.png]]
+
+**Primera forma normal (1FN):** Atributos atómicos (Sin campos repetidos):
+![[Pasted image 20230212185613.png]]
+
+**Segunda forma normal (2FN):** Cumple 1FN y cada campo de la tabla debe depender de una clave única.
+![[Pasted image 20230212185730.png]]
+
+Tercera forma normal (3FN):** Cumple 1FN y 2FN y los campos que NO son clave, NO deben tener dependencias.
+![[Pasted image 20230212190013.png]]
+
+**Cuarta forma normal (4FN):** Cumple 1FN, 2FN, 3FN y los campos multivaluados se identifican por una clave única 
+![[Pasted image 20230212190051.png]]
+
+Yo también separaría el nivel de curso por un id ya que se pueden tener cursos del mismo nivel de maestría o licenciatura. También haría una tabla pivot entre cursos y alumno, por que el alumno puede tomar varios cursos.
+![[Formas normales en Bases de Datos relacionales - Platzi.pdf]]
+
+--- 
+
+RDB (relational database)
+
+RDBMS (Relational DataBase Management System) Sistema Manejador de Bases de datos relacionales.
+
+La diferencia entre ambos es que las BBDD son un conjunto de datos pertenecientes ( o al menos en teoría) a un mismo tipo de contexto, que guarda los datos de forma persistente para un posterior uso, y el Sistema de gestión de BBDD o sistema manejador, es el que nos permite acceder a ella, es un software, herramienta que sirve de conexión entre las BBDD y el usuario (nos presenta una interfaz para poder gestionarla, manejarla).
+
+RDBMS
+
+-   MySQL
+-   PostgreSQL
+-   Etc
+
+Todas toman un lenguaje base, pero cada uno lo apropia, imponiéndole diferentes reglas y características.
+
+--- 
+## SQL
+
+**SQL** tiene dos grandes sublenguajes:  
+**DDL** o Data Definition Language que nos ayuda a crear la estructura de una base de datos. Existen 3 grandes comandos:
+
+-   Create: Nos ayuda a crear bases de datos, tablas, vistas, índices, etc.
+-   Alter: Ayuda a alterar o modificar entidades.
+-   Drop: Nos ayuda a borrar. Hay que tener cuidado al utilizarlo.
+
+**3 objetos que manipularemos con el lenguaje DDL:**
+
+-   Database o bases de datos
+-   Table o tablas. Son la traducción a SQL de las entidades
+-   View o vistas: Se ofrece la proyección de los datos de la base de datos de forma entendible.
+
+create database curso_sql;
+
+create table people (  
+    person_id integer not null auto_increment,  
+    last_name varchar(255) null,  
+    first_name varchar(255) null,  
+    address varchar(255) null,  
+    city varchar(255) null,  
+    PRIMARY KEY (person_id)  
+);
+
+select * from people limit 10;  
+  
+insert into people (last_name, first_name, address, city) values ('sabogal', 'oscar', 'calle 1', 'fusa');  
+insert into people (last_name, first_name, address, city) values ('rodriguez', 'paula', 'calle 2', 'pasca');  
+insert into people (last_name, first_name, address, city) values ('melo', 'duver', 'calle 1', 'fusa');  
+  
+create or replace view v_people_fusa as  
+    select * from people where city = 'fusa';  
+  
+select * from v_people_fusa;  
+  
+alter table people add date_of_birth datetime null after city;
+
+alter table people modify date_of_birth date;
+
+alter table people drop column date_of_birth;
+
+--- 
+## JOIN
+### Diferencia
+
+![[Pasted image 20230214070024.png]]
+Left Join
+Me traerá todos los usuarios, tengan o no tengan post
+
+Right join 
+Me traerá todos los post, tengan o no tengan usuarios
+
+### Intersección
+
+![[Pasted image 20230214070711.png]]
+
+Inner join: Generalmente más usado, Los usuarios que tienen post, y los post que tengan usuario. 
+
+Union: Traerá todo, los post que tengan o no usuario, y los usuarios que tengan o no posts
+
+Diferencia simetrica: Traerá los post que no tengan usuarios y los usuarios que no tengan post (los huerfanos).
+
+--- 
+## Where 
+
+**WHERE** es la sentencia que nos ayuda a filtrar tuplas o registros dependiendo de las características que elegimos.
+
+-   La propiedad **LIKE** nos ayuda a traer registros de los cuales conocemos sólo una parte de la información.
+-   La propiedad **BETWEEN** nos sirve para arrojar registros que estén en el medio de dos. Por ejemplo los registros con id entre 20 y 30.
+
+La sentencia **ORDER BY** tiene que ver con el ordenamiento de los datos dependiendo de los criterios que quieras usar.
+
+-   **ASC** sirve para ordenar de forma ascendente.
+-   **DESC** sirve para ordenar de forma descendente.
+-   **LIMIT** se usa para limitar la cantidad de resultados que arroja el query.
+
+**HAVING** tiene una similitud muy grande con **WHERE**, sin embargo el uso de ellos depende del orden. Cuando se quiere seleccionar tuplas agrupadas únicamente se puede hacer con **HAVING**.
+
+--- 
+-   Las consultas anidadas son la mejor opción cuando los valores dependen de otras tablas, y estas no se encuentran relacionadas entre si.
+    
+-   Las consultas anidadas son la mejor opción para casos de INSERT, DELETE, UPDATE, cuya condición dependa del esenario explicado en el punto anterior
+    
+-   Los JOINS son la mejor opción para casos de SELECT
+
+Quiero obtener todos los post creados por edgar@com
+
+-   SELECT: Lo que quieres mostrar
+    -   Nickname
+    -   Titulo del post
+-   FROM: De dónde voy a tomar los datos
+    -   Tabla usuarios y post
+-   WHERE: Los filtros de los datos que quieres mostrar
+    -   Deben de ser de edgar@com
+-   GROUP BY: Los rubros por los que me interesa agrupar la información
+    -   No deseo agrupar
+-   ORDER BY: El orden en que quiero presentar mi información
+    -   por fecha de publicación
+-   HAVING: Los filtros que quiero que mis datos agrupados tengan
+
+`SELECT u.nickname, p.titulo FROM usuarios u inner join posts p ON u.id=p.usuario_id where u.email="edgar@com" ORDER BY p.fecha_publicacion;`
+
+
+**GROUP_CONCAT** toma el resultado del query y lo pone como campo separado por comas.
+
+
+
+
+
+
+
+
+
+
+

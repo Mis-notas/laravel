@@ -10,9 +10,9 @@
   "obsidian-checklist-plugin",
   "tag-wrangler",
   "obsidian-icon-folder",
-  "obsidian-extract-pdf-highlights",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-dynamic-toc",
   "various-complements",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-extract-pdf-highlights"
 ]
