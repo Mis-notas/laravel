@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a80cc9697222b3e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas cursos/Git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "458b73a2961c7f2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas cursos/Curso de introducción al desarrollo Backend.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17d6ccd264f7c84a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notas cursos/Curso de fundamentos de bases de datos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "874a9627e57e72e3",
             "type": "leaf",
             "state": {
@@ -54,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7992b0605263ddeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notas cursos/Backed, Arquitectura y base de datos/03. Curso de MySQL y MariaDB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas cursos/Curso de fundamentos de bases de datos.md",
+                "file": "Notas cursos/Backed, Arquitectura y base de datos/03. Curso de MySQL y MariaDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas cursos/Curso de fundamentos de bases de datos.md",
+                "file": "Notas cursos/Backed, Arquitectura y base de datos/03. Curso de MySQL y MariaDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas cursos/Curso de fundamentos de bases de datos.md"
+                "file": "Notas cursos/Backed, Arquitectura y base de datos/03. Curso de MySQL y MariaDB.md"
               }
             }
           },
@@ -200,29 +176,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-extract-pdf-highlights:PDF Highlights": false,
       "switcher:Abrir quick switcher": false,
       "graph:Abrir vista de gráfico": false,
       "canvas:Create new canvas": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "markdown-importer:Abrir el importador de Markdown": false
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "17d6ccd264f7c84a",
+  "active": "7992b0605263ddeb",
   "lastOpenFiles": [
     "index-laravel.md",
-    "Notas cursos/Spring boot.md",
-    "Notas cursos/Curso de fundamentos de bases de datos.md",
-    "Notas cursos/Curso de introducción al desarrollo Backend.md",
-    "Notas cursos/Git.md",
-    "React.md",
-    "Tasks.md",
     "Highlights for 005 - Validación Check-out inferiora Check-in.md",
+    "own documentation/1. Instalación - Linux.md",
+    "Notas cursos/Backed, Arquitectura y base de datos/02. Curso de fundamentos de bases de datos.md",
+    "Notas cursos/Backed, Arquitectura y base de datos/03. Curso de MySQL y MariaDB.md",
+    "annexed/Pasted image 20230310215508.png",
+    "Notas cursos/Backed, Arquitectura y base de datos/01. Curso de introducción al desarrollo Backend.md",
     "Notas cursos/Linea de backend/PHP.md",
-    "own documentation/2. Model.md"
+    "own documentation/9. Despliegue.md",
+    "own documentation/99. Querys para no olvidar.md",
+    "Notas cursos/Git.md",
+    "own documentation/8. Variables de sesión.md",
+    "own documentation/5. Vistas.md"
   ]
 }

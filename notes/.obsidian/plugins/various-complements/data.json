@@ -43,38 +43,6 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "Navegadores": {
-      "Navegadores": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675739212747
-        }
-      }
-    },
-    "framework": {
-      "framework": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675739986167
-        }
-      }
-    },
-    "Https": {
-      "Https": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1675740201150
-        }
-      }
-    },
-    "servicio": {
-      "servicio": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1675991929592
-        }
-      }
-    },
     "única": {
       "única": {
         "currentFile": {
@@ -88,6 +56,38 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1676376470758
+        }
+      }
+    },
+    "php-imagick": {
+      "php-imagick": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676995218881
+        }
+      }
+    },
+    "campo": {
+      "campo": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678417942734
+        }
+      }
+    },
+    "utf8mb4": {
+      "utf8mb4": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678418032087
+        }
+      }
+    },
+    "caracteres": {
+      "caracteres": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678418078993
         }
       }
     }

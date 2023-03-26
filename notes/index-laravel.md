@@ -1,4 +1,4 @@
-
+a
 ---
 aliases: [index, back]
 ---
@@ -206,11 +206,12 @@ Tipo: insert, update, delete
 
 No se puede inyectar servicios en circulo, es decir el servicio a al ser inyectado en el servicio b, el servicio b no puede estar en el a.
 
+wake on lan 
+https://www.claudiokuenzler.com/blog/1208/how-to-enable-wake-on-lan-wol-asrock-b550-motherboard-linux
 
 
 CREATE USER 'otfadmin'@'%' IDENTIFIED BY '%#D3v3lop+2023*$$';
 GRANT ALL PRIVILEGES ON *.* TO 'otfadmin' WITH GRANT OPTION;
-
 
 
 
